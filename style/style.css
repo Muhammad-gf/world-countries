@@ -1,0 +1,146 @@
+.navbar-custom {
+  background-color: #7952b3;
+  padding: 2.25rem;
+}
+.container-custom__end {
+  position: relative;
+  margin-top: 0%;
+  height: 10rem;
+  background-color: #7952b3;
+  color: black;
+  padding: 0.25rem;
+  text-align: center;
+  align-items: center;
+}
+.container-custom__end-2 {
+  position: relative;
+  margin-top: 0%;
+  height: 3rem;
+  background-color: #7952b3;
+  color: black;
+  padding-top: 0rem;
+  text-align: bottom;
+  align-items: bottom;
+}
+.header__end {
+  margin-top: 0%;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  font-family: Segoe UI, Roboto, Helvetica Neue, sans-serif;
+  text-shadow: 0 1rem 2rem 0.5rem rgba(252, 251, 251, 0.932);
+}
+.icons__end {
+  display: block;
+  left: auto;
+  right: auto;
+}
+.icon__end {
+  fill: rgba(255, 255, 255, 0.85);
+}
+.text--icon {
+  top: 0.35em;
+}
+.header {
+  display: block;
+  right: auto;
+  left: auto;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 2.25rem;
+  font-family: Segoe UI, Roboto, Helvetica Neue, sans-serif;
+  align-items: center;
+  text-align: center;
+}
+.heading {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-family: Segoe UI, Roboto, Helvetica Neue, sans-serif;
+}
+/* .country {
+  font-size: 3em;
+} */
+.button--custom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.btn--first:hover {
+  color: black;
+}
+.btn--first {
+  margin-left: 10px;
+}
+.alert--custom {
+  font-size: 1.25rem;
+}
+.countries {
+  padding-top: 1.5rem;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+}
+
+.country {
+  background-color: #fff;
+  box-shadow: 0 1rem 2rem 0.5rem rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  width: 20rem;
+  border-radius: 0.45rem;
+  margin: 0 1rem 1.2rem;
+
+  /* overflow: hidden; */
+}
+.neighbour::before {
+  content: "Qo'shni davlat";
+  width: 100%;
+  position: absolute;
+  top: -3rem;
+
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.neighbour {
+  transform: scale(0.8) translateY(1rem);
+  margin-left: 0;
+  margin-top: 0;
+}
+.country__img {
+  width: 20rem;
+  height: auto;
+  object-fit: cover;
+  background-color: #eee;
+  border-top-left-radius: 0.45rem;
+  border-top-right-radius: 0.45rem;
+}
+
+.country__data {
+  padding: 1rem 1.4rem 1rem 1.4rem;
+}
+
+.country__name {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.country__region {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.country__row:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+
+.country__row span {
+  display: inline-block;
+  margin-right: 1.5rem;
+  font-size: 1.8rem;
+}
